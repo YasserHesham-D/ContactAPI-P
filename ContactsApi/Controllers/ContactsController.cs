@@ -8,7 +8,7 @@ namespace ContactsApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContactsController(AppDbContext context) : ControllerBase
+    public class ContactsController() : ControllerBase
     {
     
         //[HttpGet]

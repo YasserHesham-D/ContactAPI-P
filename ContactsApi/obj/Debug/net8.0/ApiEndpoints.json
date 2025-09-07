@@ -1,48 +1,6 @@
 [
   {
     "ContainingType": "ContactsApi.Controllers.ContactsController",
-    "Method": "PostContactAsync",
-    "RelativePath": "api/Contacts",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "contactDto",
-        "Type": "ContactsApi.Models.ContactDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ContactsApi.Controllers.ContactsController",
-    "Method": "DeleteContactAsync",
-    "RelativePath": "api/Contacts",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ContactsApi.Controllers.ContactsController",
-    "Method": "GetAllContacts",
-    "RelativePath": "api/Contacts/GetAllContacts",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ContactsApi.Controllers.ContactsController",
     "Method": "GetAllGGG",
     "RelativePath": "api/Contacts/GetAllGGG",
     "HttpMethod": "GET",

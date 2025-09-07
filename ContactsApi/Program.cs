@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-else
+else if(app.Environment.IsProduction())
 {
     //using (var scope = app.Services.CreateScope())
     //{
@@ -31,7 +31,7 @@ else
 
 }
 
-    app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseCors(policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 app.UseAuthorization();
