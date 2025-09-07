@@ -21,7 +21,7 @@ namespace ContactsApi.Controllers
 
         [HttpGet]
         [Route("[Action]")]
-        public async Task<IActionResult> GetAllGGG()
+        public IActionResult GetAllGGG()
         {
 
             return Ok("GGG");

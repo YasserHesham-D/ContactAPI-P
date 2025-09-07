@@ -274,3 +274,4 @@ D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\ContactsApi.pdb
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\ContactsApi.genruntimeconfig.cache
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\ref\ContactsApi.dll
+D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\bin\Debug\net8.0\appsettings.Production.json

@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "ContactsApi.Controllers.ContactsController",
-    "Method": "GetAllContacts",
-    "RelativePath": "api/Contacts",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ContactsApi.Controllers.ContactsController",
     "Method": "PostContactAsync",
     "RelativePath": "api/Contacts",
     "HttpMethod": "POST",
@@ -39,6 +29,26 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsApi.Controllers.ContactsController",
+    "Method": "GetAllContacts",
+    "RelativePath": "api/Contacts/GetAllContacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsApi.Controllers.ContactsController",
+    "Method": "GetAllGGG",
+    "RelativePath": "api/Contacts/GetAllGGG",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

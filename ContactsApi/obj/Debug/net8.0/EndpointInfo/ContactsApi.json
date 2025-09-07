@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Contacts": {
+    "/api/Contacts/GetAllContacts": {
       "get": {
         "tags": [
           "Contacts"
@@ -15,7 +15,21 @@
             "description": "Success"
           }
         }
-      },
+      }
+    },
+    "/api/Contacts/GetAllGGG": {
+      "get": {
+        "tags": [
+          "Contacts"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Contacts": {
       "post": {
         "tags": [
           "Contacts"
