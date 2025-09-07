@@ -2,8 +2,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore ContactsApi.csproj
-RUN dotnet publish ContactsApi.csproj -c Release -o /app
+RUN dotnet restore ContactsApi/ContactsApi.csproj
+RUN dotnet publish ContactsApi/ContactsApi.csproj -c Release -o /app
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
