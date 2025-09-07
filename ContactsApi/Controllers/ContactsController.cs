@@ -18,6 +18,13 @@ namespace ContactsApi.Controllers
             return Ok(contact);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAllGGG()
+        {
+
+            return Ok("GGG");
+        }
+
         [HttpPost]
         public async Task<IActionResult> PostContactAsync(ContactDto contactDto)
         {
