@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ContactsApi.Controllers.ContactsController",
+    "Method": "GetAllContacts",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsApi.Controllers.ContactsController",
+    "Method": "PostContactAsync",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactDto",
+        "Type": "ContactsApi.Models.ContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
