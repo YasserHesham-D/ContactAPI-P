@@ -267,7 +267,6 @@ D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\staticwebassets.development.json
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\Contacts.098B5F62.Up2Date
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\ContactsApi.dll
 D:\WebDev\WebDevProjects\ContactProject\ContactsApi\ContactsApi\obj\Debug\net8.0\refint\ContactsApi.dll
