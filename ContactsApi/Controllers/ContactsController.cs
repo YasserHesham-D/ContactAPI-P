@@ -12,6 +12,7 @@ namespace ContactsApi.Controllers
     {
     
         [HttpGet]
+        [Route("[Action]")]
         public async Task<IActionResult> GetAllContacts()
         {
             var contact = await context.contacts.ToListAsync();
@@ -19,6 +20,7 @@ namespace ContactsApi.Controllers
         }
 
         [HttpGet]
+        [Route("[Action]")]
         public async Task<IActionResult> GetAllGGG()
         {
 
